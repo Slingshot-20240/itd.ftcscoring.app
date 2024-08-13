@@ -1,0 +1,126 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		const div = document.querySelector('main');
+		if (div) {
+			setTimeout(() => {
+				div.style.opacity = '1';
+
+				let index = 0;
+				setInterval(() => {
+					const elements = document.querySelectorAll('img');
+					elements[index].style.opacity = '0';
+					if (elements[index + 1]) {
+						elements[index + 1].style.opacity = '1';
+						index++;
+					} else {
+						elements[0].style.opacity = '1';
+						index = 0;
+					}
+				}, 5000);
+			}, 500);
+		}
+	});
+</script>
+
+<main>
+	<div>
+		<div>
+			<img
+				id="homeScreen"
+				src="/HomeScreen.png"
+				alt="The home screen view of a scoring app made for FTC."
+				srcset=""
+			/>
+			<img
+				id="scoreScreen"
+				src="/ScoreScreen.png"
+				alt="The innovative scorekeeper view made for FTC teams and fans in mind."
+				srcset=""
+			/>
+			<img
+				id="detailedScreen"
+				src="/DetailedScreen.png"
+				alt="Save games to view detailed scoring information afterwards."
+				srcset=""
+			/>
+		</div>
+		<h1>The <span id="wordChange">Ultimate</span> FTC Scorer</h1>
+		<h4>Coming Soon.</h4>
+		<h3>Sign up for the beta <a href="https://forms.gle/NeyagwVApSCFtyba8">here</a>.</h3>
+	</div>
+</main>
+
+<style lang="scss">
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+	:global(body) {
+		margin: 0;
+		padding: 0;
+		font-family: 'Poppins', system-ui, sans-serif;
+		color: #fff;
+		background-color: #0f0f0f;
+	}
+
+	main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		opacity: 0;
+		transition: all 0.5s;
+
+		div {
+			display: flex-block;
+			align-items: center;
+			text-align: center;
+
+			div {
+				width: 50vw;
+				height: calc(50vw / 1837 * 901);
+
+				img {
+					position: absolute;
+					left: 25vw;
+					width: 50vw;
+					opacity: 0;
+					transition: opacity 0.5s;
+				}
+
+				#homeScreen {
+					opacity: 1;
+				}
+			}
+
+			h1 {
+				margin: 1.5vw 0 0 0;
+				padding: 0;
+				font-weight: 200;
+				font-size: 2vw;
+
+				span {
+					font-weight: 500;
+				}
+			}
+
+			h4 {
+				margin: 0 0 0.5vw 0;
+				font-size: 1vw;
+				font-weight: 100;
+			}
+
+			h3 {
+				margin: 0.8vw 0;
+				font-size: 1.5vw;
+				font-weight: 200;
+
+				a {
+					font-weight: 500;
+					color: #7e55cb;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+</style>
