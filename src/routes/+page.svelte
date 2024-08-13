@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -29,19 +30,19 @@
 		<div>
 			<img
 				id="homeScreen"
-				src="/HomeScreen.png"
+				src="{base}/HomeScreen.png"
 				alt="The home screen view of a scoring app made for FTC."
 				srcset=""
 			/>
 			<img
 				id="scoreScreen"
-				src="/ScoreScreen.png"
+				src="{base}/ScoreScreen.png"
 				alt="The innovative scorekeeper view made for FTC teams and fans in mind."
 				srcset=""
 			/>
 			<img
 				id="detailedScreen"
-				src="/DetailedScreen.png"
+				src="{base}/DetailedScreen.png"
 				alt="Save games to view detailed scoring information afterwards."
 				srcset=""
 			/>
