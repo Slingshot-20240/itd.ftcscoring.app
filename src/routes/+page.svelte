@@ -57,11 +57,70 @@
 	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 	:global(body) {
+		overflow: hidden;
 		margin: 0;
 		padding: 0;
 		font-family: 'Poppins', system-ui, sans-serif;
 		color: #fff;
 		background-color: #0f0f0f;
+	}
+
+	@media (orientation: portrait) {
+		main > div {
+			div {
+				width: 90vw;
+				height: calc(90vw / 1837 * 901);
+
+				img {
+					left: 5vw;
+					width: 90vw;
+				}
+			}
+
+			h1 {
+				margin: 4vh 0 0 0;
+				font-size: 3.5vh;
+			}
+
+			h4 {
+				margin: 0 0 1vh 0;
+				font-size: 2vh;
+			}
+
+			h3 {
+				margin: 1vh 0;
+				font-size: 2.5vh;
+			}
+		}
+	}
+
+	@media (orientation: landscape) {
+		main > div {
+			div {
+				width: 50vw;
+				height: calc(50vw / 1837 * 901);
+
+				img {
+					left: 25vw;
+					width: 50vw;
+				}
+			}
+
+			h1 {
+				margin: 1.5vw 0 0 0;
+				font-size: 2vw;
+			}
+
+			h4 {
+				margin: 0 0 0.5vw 0;
+				font-size: 1vw;
+			}
+
+			h3 {
+				margin: 0.8vw 0;
+				font-size: 1.5vw;
+			}
+		}
 	}
 
 	main {
@@ -78,13 +137,8 @@
 			text-align: center;
 
 			div {
-				width: 50vw;
-				height: calc(50vw / 1837 * 901);
-
 				img {
 					position: absolute;
-					left: 25vw;
-					width: 50vw;
 					opacity: 0;
 					transition: opacity 0.5s;
 				}
@@ -95,10 +149,8 @@
 			}
 
 			h1 {
-				margin: 1.5vw 0 0 0;
 				padding: 0;
 				font-weight: 200;
-				font-size: 2vw;
 
 				span {
 					font-weight: 500;
@@ -106,14 +158,10 @@
 			}
 
 			h4 {
-				margin: 0 0 0.5vw 0;
-				font-size: 1vw;
 				font-weight: 100;
 			}
 
 			h3 {
-				margin: 0.8vw 0;
-				font-size: 1.5vw;
 				font-weight: 200;
 
 				a {
