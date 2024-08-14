@@ -9,6 +9,7 @@
 				div.style.opacity = '1';
 
 				let index = 0;
+				let words = ['Ultimate', 'Definitive', 'Innovative']
 				setInterval(() => {
 					const elements = document.querySelectorAll('img');
 					elements[index].style.opacity = '0';
@@ -18,6 +19,10 @@
 					} else {
 						elements[0].style.opacity = '1';
 						index = 0;
+					}
+					const wordChange = document.querySelector('#wordChange');
+					if (wordChange) {
+						wordChange.innerHTML = words[index];
 					}
 				}, 5000);
 			}, 500);
@@ -47,9 +52,12 @@
 				srcset=""
 			/>
 		</div>
+
 		<h1>The <span id="wordChange">Ultimate</span> FTC Scorer</h1>
 		<h4>Coming Soon.</h4>
 		<h3>Sign up for the beta <a href="https://forms.gle/NeyagwVApSCFtyba8">here</a>.</h3>
+
+		<p>Contact <a target="_blank" href="mailto:support@ftcscoring.app">support@ftcscoring.app</a></p>
 	</div>
 </main>
 
@@ -168,6 +176,15 @@
 					font-weight: 500;
 					color: #7e55cb;
 					text-decoration: none;
+				}
+			}
+
+			p {
+				font-size: smaller;
+				color: #aaa;
+				font-weight: 200;
+				a {
+					color: #aaa;
 				}
 			}
 		}
