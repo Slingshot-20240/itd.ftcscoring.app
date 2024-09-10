@@ -9,7 +9,7 @@
 				div.style.opacity = '1';
 
 				let index = 0;
-				let words = ['Ultimate', 'Definitive', 'Innovative']
+				let words = ['Ultimate', 'Definitive', 'Innovative', 'Complete'];
 				setInterval(() => {
 					const elements = document.querySelectorAll('img');
 					elements[index].style.opacity = '0';
@@ -35,29 +35,43 @@
 		<div>
 			<img
 				id="homeScreen"
-				src="{base}/HomeScreen.png"
+				src="{base}/mockups/HomeScreen.png"
 				alt="The home screen view of a scoring app made for FTC."
 				srcset=""
 			/>
 			<img
 				id="scoreScreen"
-				src="{base}/ScoreScreen.png"
+				src="{base}/mockups/ScoreScreen.png"
 				alt="The innovative scorekeeper view made for FTC teams and fans in mind."
 				srcset=""
 			/>
 			<img
 				id="detailedScreen"
-				src="{base}/DetailedScreen.png"
+				src="{base}/mockups/DetailedScreen.png"
 				alt="Save games to view detailed scoring information afterwards."
+				srcset=""
+			/>
+			<img
+				id="eventsScreen"
+				src="{base}/mockups/EventsScreen.png"
+				alt="Relay and view live scores from any official FTC event from around the world."
 				srcset=""
 			/>
 		</div>
 
 		<h1>The <span id="wordChange">Ultimate</span> FTC Scorer</h1>
-		<h4>Coming Soon.</h4>
-		<h3>Sign up for the beta <a href="https://forms.gle/NeyagwVApSCFtyba8">here</a>.</h3>
+		<h4>September 13th.</h4>
 
-		<p>Contact <a target="_blank" href="mailto:support@ftcscoring.app">support@ftcscoring.app</a></p>
+		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
+			<img src="{base}/appStore/preorder.svg" alt="Pre-order on the App Store" />
+			<img src="{base}/appStore/preorderMac.svg" alt="Pre-order on the Mac App Store" />
+		</a>
+
+		<!-- <h3>Sign up for the beta <a href="https://forms.gle/NeyagwVApSCFtyba8">here</a>.</h3> -->
+
+		<p>
+			Contact <a target="_blank" href="mailto:support@ftcscoring.app">support@ftcscoring.app</a>
+		</p>
 	</div>
 </main>
 
@@ -91,8 +105,15 @@
 			}
 
 			h4 {
-				margin: 0 0 1vh 0;
+				margin: 0 0 2vh 0;
 				font-size: 2vh;
+			}
+
+			a {
+				img {
+					height: 5vh;
+					padding: 0 0.2vw;
+				}
 			}
 
 			h3 {
@@ -120,8 +141,15 @@
 			}
 
 			h4 {
-				margin: 0 0 0.5vw 0;
+				margin: 0 0 1vw 0;
 				font-size: 1vw;
+			}
+
+			a {
+				img {
+					height: 3vw;
+					padding: 0 0.2vw;
+				}
 			}
 
 			h3 {
@@ -166,7 +194,7 @@
 			}
 
 			h4 {
-				font-weight: 100;
+				font-weight: 400;
 			}
 
 			h3 {
