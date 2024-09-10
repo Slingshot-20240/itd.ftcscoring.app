@@ -11,9 +11,10 @@
 				let index = 0;
 				let words = ['Ultimate', 'Definitive', 'Innovative', 'Complete'];
 				setInterval(() => {
-					const elements = document.querySelectorAll('img');
+					const elements = document.querySelectorAll('.mockup') as unknown as [HTMLImageElement];
 					elements[index].style.opacity = '0';
 					if (elements[index + 1]) {
+						``;
 						elements[index + 1].style.opacity = '1';
 						index++;
 					} else {
@@ -30,6 +31,10 @@
 	});
 </script>
 
+<head>
+	<title>INTO THE DEEP Scorer presented by 20240 Westwood Slingshot</title>
+</head>
+
 <main>
 	<div>
 		<div>
@@ -38,24 +43,28 @@
 				src="{base}/mockups/HomeScreen.png"
 				alt="The home screen view of a scoring app made for FTC."
 				srcset=""
+				class="mockup"
 			/>
 			<img
 				id="scoreScreen"
 				src="{base}/mockups/ScoreScreen.png"
 				alt="The innovative scorekeeper view made for FTC teams and fans in mind."
 				srcset=""
+				class="mockup"
 			/>
 			<img
 				id="detailedScreen"
 				src="{base}/mockups/DetailedScreen.png"
 				alt="Save games to view detailed scoring information afterwards."
 				srcset=""
+				class="mockup"
 			/>
 			<img
 				id="eventsScreen"
 				src="{base}/mockups/EventsScreen.png"
 				alt="Relay and view live scores from any official FTC event from around the world."
 				srcset=""
+				class="mockup"
 			/>
 		</div>
 
@@ -64,6 +73,9 @@
 
 		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
 			<img src="{base}/appStore/preorder.svg" alt="Pre-order on the App Store" />
+		</a>
+
+		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
 			<img src="{base}/appStore/preorderMac.svg" alt="Pre-order on the Mac App Store" />
 		</a>
 
@@ -110,9 +122,9 @@
 			}
 
 			a {
+				margin: 0 0.2vw;
 				img {
 					height: 5vh;
-					padding: 0 0.2vw;
 				}
 			}
 
@@ -146,9 +158,9 @@
 			}
 
 			a {
+				margin: 0 0.2vw;
 				img {
 					height: 3vw;
-					padding: 0 0.2vw;
 				}
 			}
 
