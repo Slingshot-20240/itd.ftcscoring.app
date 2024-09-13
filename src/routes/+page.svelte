@@ -69,7 +69,7 @@
 		</div>
 
 		<h1>The <span id="wordChange">Ultimate</span> FTC Scorer</h1>
-		<h4>September 13th.</h4>
+		<h4>September 15th</h4>
 
 		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
 			<img src="{base}/appStore/preorder.svg" alt="Pre-order on the App Store" />
