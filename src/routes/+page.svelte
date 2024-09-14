@@ -224,6 +224,7 @@
 				color: #aaa;
 				font-weight: 200;
 				a {
+					margin: 0;
 					color: #aaa;
 				}
 			}
