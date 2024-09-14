@@ -69,17 +69,17 @@
 		</div>
 
 		<h1>The <span id="wordChange">Ultimate</span> FTC Scorer</h1>
-		<h4>September 15th</h4>
+		<h4>Available Now</h4>
 
 		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
-			<img src="{base}/appStore/preorder.svg" alt="Pre-order on the App Store" />
+			<img src="{base}/appStore/download.svg" alt="Download on the App Store" />
 		</a>
 
 		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
-			<img src="{base}/appStore/preorderMac.svg" alt="Pre-order on the Mac App Store" />
+			<img src="{base}/appStore/downloadMac.svg" alt="Download on the Mac App Store" />
 		</a>
 
-		<!-- <h3>Sign up for the beta <a href="https://forms.gle/NeyagwVApSCFtyba8">here</a>.</h3> -->
+		<p>Sign up for the beta <a target="_blank" href="https://testflight.apple.com/join/vJdKzF7Q">here</a>.</p>
 
 		<p>
 			Contact <a target="_blank" href="mailto:support@ftcscoring.app">support@ftcscoring.app</a>
@@ -127,11 +127,6 @@
 					height: 5vh;
 				}
 			}
-
-			h3 {
-				margin: 1vh 0;
-				font-size: 2.5vh;
-			}
 		}
 	}
 
@@ -162,11 +157,6 @@
 				img {
 					height: 3vw;
 				}
-			}
-
-			h3 {
-				margin: 0.8vw 0;
-				font-size: 1.5vw;
 			}
 		}
 	}
@@ -207,16 +197,6 @@
 
 			h4 {
 				font-weight: 400;
-			}
-
-			h3 {
-				font-weight: 200;
-
-				a {
-					font-weight: 500;
-					color: #7e55cb;
-					text-decoration: none;
-				}
 			}
 
 			p {
