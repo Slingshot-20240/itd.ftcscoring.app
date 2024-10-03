@@ -1,7 +1,7 @@
 
 # FTC Scorer Website
 
-This is a private repo hosting the files for [ftcscoring.app](ftcscoring.app)
+This is a private repo hosting the files for [ftcscoring.app](https://ftcscoring.app)
 
 ## Copyright
 
