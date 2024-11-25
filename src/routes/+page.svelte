@@ -79,11 +79,12 @@
 			<img src="{base}/appStore/downloadMac.svg" alt="Download on the Mac App Store" />
 		</a>
 
-		<p>Sign up for the beta <a target="_blank" href="https://testflight.apple.com/join/vJdKzF7Q">here</a>.</p>
+		<h5>
+			Join the beta <a target="_blank" href="https://testflight.apple.com/join/vJdKzF7Q">here</a
+			>.
+		</h5>
 
-		<p>
-			Contact <a target="_blank" href="mailto:support@ftcscoring.app">support@ftcscoring.app</a>
-		</p>
+		<p>Live Relay available now in beta. Coming later this year.</p>
 	</div>
 </main>
 
@@ -121,6 +122,11 @@
 				font-size: 2vh;
 			}
 
+			h5 {
+				margin: 1vh 0 0 0;
+				font-size: 2vh;
+			}
+
 			a {
 				margin: 0 0.2vw;
 				img {
@@ -149,6 +155,11 @@
 
 			h4 {
 				margin: 0 0 1vw 0;
+				font-size: 1vw;
+			}
+
+			h5 {
+				margin: 0.5vw 0 0 0;
 				font-size: 1vw;
 			}
 
@@ -203,8 +214,25 @@
 				font-size: smaller;
 				color: #aaa;
 				font-weight: 200;
+
 				a {
 					margin: 0;
+					color: #aaa;
+				}
+			}
+
+			h5 {
+				color: #ccc;
+				font-weight: 200;
+
+				a {
+					font-weight: 600;
+					margin: 0;
+					color: #eee;
+					transition: all 0.5s;
+				}
+
+				a:hover {
 					color: #aaa;
 				}
 			}
