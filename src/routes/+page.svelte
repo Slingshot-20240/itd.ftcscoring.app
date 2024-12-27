@@ -80,22 +80,20 @@
 		</a>
 
 		<h5>
-			Join the beta <a target="_blank" href="https://testflight.apple.com/join/vJdKzF7Q">here</a
-			>.
+			Join the beta <a target="_blank" href="https://testflight.apple.com/join/vJdKzF7Q">here</a>.
 		</h5>
 
-		<p>Live Relay available now in beta. Coming later this year.</p>
+		<p>Live Relay available now in beta. Coming early 2025.</p>
 	</div>
 </main>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 	:global(body) {
-		overflow: hidden;
 		margin: 0;
 		padding: 0;
-		font-family: 'Poppins', system-ui, sans-serif;
+		font-family: 'Inter', sans-serif;
 		color: #fff;
 		background-color: #0f0f0f;
 	}
