@@ -1,0 +1,7 @@
+{
+	"version": "1.2",
+	"build": "28",
+	"message": "Updating to this version is required to continue using the Live Scores feature.",
+	"dev": true,
+	"beta": true
+}
