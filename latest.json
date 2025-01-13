@@ -1,6 +1,6 @@
 {
 	"version": "1.2",
-	"build": "27",
+	"build": "28",
 	"message": "Please update for the latest bug fixes. You may experience severe issues if you don't update.",
 	"dev": true,
 	"beta": true
