@@ -1,7 +1,7 @@
 {
 	"version": "1.2",
-	"build": "29",
-	"message": "Update for the latest bug fixes. You may experience severe issues if you choose to remain on the current version.",
+	"build": "30",
+	"message": "The public release of version 1.2 is here! Keep updating from TestFlight to get the latest beta features, or install from the App Store for the latest stable builds.",
 	"dev": true,
 	"beta": true
 }
