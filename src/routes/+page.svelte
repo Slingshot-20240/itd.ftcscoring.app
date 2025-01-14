@@ -39,16 +39,16 @@
 	<div>
 		<div>
 			<img
-				id="homeScreen"
-				src="{base}/mockups/HomeScreen.png"
-				alt="The home screen view of a scoring app made for FTC."
+				id="scoreScreen"
+				src="{base}/mockups/ScoreScreen.png"
+				alt="The innovative scorekeeper view made for FTC teams and fans in mind."
 				srcset=""
 				class="mockup"
 			/>
 			<img
-				id="scoreScreen"
-				src="{base}/mockups/ScoreScreen.png"
-				alt="The innovative scorekeeper view made for FTC teams and fans in mind."
+				id="homeScreen"
+				src="{base}/mockups/HomeScreen.png"
+				alt="The home screen view of a scoring app made for FTC."
 				srcset=""
 				class="mockup"
 			/>
@@ -68,22 +68,18 @@
 			/>
 		</div>
 
-		<h1>The <span id="wordChange">Ultimate</span> FTC Scorer</h1>
+		<h1 style="margin-bottom: 0.4vw;">The <span id="wordChange">Ultimate</span> FTC Scorer</h1>
 		<h4>Available Now</h4>
 
 		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
 			<img src="{base}/appStore/download.svg" alt="Download on the App Store" />
 		</a>
 
-		<a href="https://apps.apple.com/app/into-the-deep-scorer-for-ftc/id6596798391">
-			<img src="{base}/appStore/downloadMac.svg" alt="Download on the Mac App Store" />
-		</a>
-
 		<h5>
 			Join the beta <a target="_blank" href="https://testflight.apple.com/join/vJdKzF7Q">here</a>.
 		</h5>
 
-		<p>Live Relay available now in beta. Coming early 2025.</p>
+		<p>Live Relay available now in beta. Coming Jan 17.</p>
 	</div>
 </main>
 
@@ -190,7 +186,7 @@
 					transition: opacity 0.5s;
 				}
 
-				#homeScreen {
+				#scoreScreen {
 					opacity: 1;
 				}
 			}
