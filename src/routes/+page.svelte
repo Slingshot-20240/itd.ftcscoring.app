@@ -75,11 +75,16 @@
 			<img src="{base}/appStore/download.svg" alt="Download on the App Store" />
 		</a>
 
-		<h5>
+		<!-- <h5>
 			Join the beta <a target="_blank" href="https://testflight.apple.com/join/vJdKzF7Q">here</a>.
-		</h5>
+		</h5> -->
 
-		<p>Live Relay available now in beta. Coming Jan 17.</p>
+		<p>© 2024-2025 FTC Team 20240 Slingshot & Contributors</p>
+		<p>
+			<a href="/privacy" target="_blank">Privacy Policy</a> |
+			<a href="https://github.com/JiningLiu/into-the-deep-scorer-calc" target="_blank">GitHub</a>
+			| <a href="mailto:support@ftcscoring.app" target="_blank">Contact Us</a>
+		</p>
 	</div>
 </main>
 
@@ -121,6 +126,11 @@
 				font-size: 2vh;
 			}
 
+			p {
+				margin: 1vh 0 0 0;
+				font-size: 1.4vh;
+			}
+
 			a {
 				margin: 0 0.2vw;
 				img {
@@ -155,6 +165,11 @@
 			h5 {
 				margin: 0.5vw 0 0 0;
 				font-size: 1vw;
+			}
+
+			p {
+				margin: 0.5vw 0 0 0;
+				font-size: 0.8vw;
 			}
 
 			a {
@@ -205,7 +220,6 @@
 			}
 
 			p {
-				font-size: smaller;
 				color: #aaa;
 				font-weight: 200;
 
