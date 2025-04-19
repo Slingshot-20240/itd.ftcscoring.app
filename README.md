@@ -1,13 +1,13 @@
 
-# FTC Scorer Website
+# FTC ITD Scorer Website (Archived)
 
-This is a private repo hosting the files for [ftcscoring.app](https://ftcscoring.app)
+This is a private repo hosting the files for [itd.ftcscoring.app](https://itd.ftcscoring.app)
 
 ## Copyright
 
 ### Contents
 
-© 2023-2024 FTC Team 20240 Westwood Slingshot & Contributors.
+© 2023-2025 FTC Team 20240 Slingshot & Contributors.
 All Rights Reserved.
 
 ### Templates, Frameworks, etc.
