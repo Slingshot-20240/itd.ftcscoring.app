@@ -1,7 +1,7 @@
 
 # FTC ITD Scorer Website (Archived)
 
-This is a private repo hosting the files for [itd.ftcscoring.app](https://itd.ftcscoring.app)
+This repo hosts the files for [itd.ftcscoring.app](https://itd.ftcscoring.app)
 
 ## Copyright
 
